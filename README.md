@@ -19,8 +19,9 @@ A ideia de construção do utilitário `wc` veio do desafio #01 do [Coding Chall
 
 - [ ] Fazer o `wc` funcionar pelo redirecionamento ou por pipeline sem o uso de das opções (-l,-w,-m). Ou seja:
 
-./wc < data/mem.dump
-cat data/mem.dum | ./wc
+    ./wc < data/mem.dump
+    
+    cat data/mem.dum | ./wc
 
 ## wc em ação!
 
