@@ -25,7 +25,7 @@ A ideia de construção do utilitário `wc` veio do desafio #01 do [Coding Chall
 
 ## wc em ação!
 
-
+https://github.com/user-attachments/assets/69f61fe0-8b3e-439d-a985-378c55bac043
 
 ## Experimente em Sua Máquina
 
