@@ -1,17 +1,17 @@
 ## wc (word count)
 
-As ferramentas de linha de comando do Unix, como o utilitário `wc`, são um excelente exemplo de engenharia de software de qualidade, refletindo os princípios fundamentais da Filosofia Unix. Um desses princípios é **escrever partes simples conectadas por interfaces limpas**—ferramentas como o `wc` são projetadas para realizar uma única tarefa de forma eficiente, neste caso, contar palavras, linhas e caracteres, oferecendo uma interface de linha de comando (CLI) clara e direta, que lida com entradas de texto vindas de arquivos ou fluxos. Essa simplicidade torna essas ferramentas confiáveis e fáceis de entender.
+Ferramentas de linha de comando Unix, como o utilitário `wc`, são exemplos de engenharia de software de qualidade, refletindo os princípios fundamentais da Filosofia Unix. Um desses princípios é **escrever partes simples conectadas por interfaces limpas**. Utilitários como o `wc` são projetados para realizar uma única tarefa de forma eficiente, neste caso, contar palavras, linhas e caracteres, oferecendo uma interface de linha de comando (CLI) clara e direta, que lida com entradas de texto vindas de arquivos ou fluxos. Tal simplicidade torna essas ferramentas confiáveis e fáceis de entender.
 
-Outro princípio essencial é **desenhar programas para se conectarem a outros programas**. O `wc`, assim como outras ferramentas Unix, pode ser facilmente combinado com outros utilitários, permitindo a criação de pipelines poderosos para processamento de dados complexos. Tal modularidade é o que torna as ferramentas de linha de comando Unix atemporais e altamente eficazes.
+Outro princípio é o de **desenhar programas para se conectarem a outros programas**. O `wc`, assim como outras ferramentas Unix, pode ser combinado com outros utilitários, permitindo a criação de pipelines para processamento de dados complexos. Tal modularidade é o que torna os utilitários de linha de comando Unix atemporais e eficazes.
 
-O utilitário `wc` é um comando no Unix e sistemas baseados em Unix que é usado para contar o número de linhas, palavras e bytes (ou caracteres) em arquivos de texto ou na entrada padrão (stdin). Ao ser executado, ele exibe três contagens por padrão: o número de linhas, o número de palavras e o número de bytes, separados por espaços, para cada arquivo fornecido.
+O utilitário `wc` é um comando no Unix e sistemas baseados em Unix que é usado para contar o número de linhas, palavras e bytes (ou caracteres) em arquivos de texto ou na entrada padrão (stdin). Ao ser executado, ele exibe, por padrão, três contagens: o número de linhas, o número de palavras e o número de bytes, separados por espaços, para cada arquivo fornecido.
 
-Implementar em C um utilitário como o `wc`, me proporcionou vários aprendizados, como:
+Implementar uma ferramenta como o `wc`, me proporcionou vários aprendizados, como:
 
 - Manipulação de Arquivos e Fluxos de Dados
 - Processamento de Strings
-- Modularidade e Simplicidade:
 - Pipelines e Conexão entre Programas
+- Contagem de caracteres em uft-8
 
 A ideia de construção do utilitário `wc` veio do desafio #01 do [Coding Challenges](https://codingchallenges.fyi/challenges/challenge-wc).
 
